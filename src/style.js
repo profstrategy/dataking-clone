@@ -1,7 +1,7 @@
 const styles = {
     paddingX: "sm:px-28 px-6",
     paddingY: "sm:py-16 py-6",
-    padding: "sm:px-16 px-6 sm:py-16 py-10",
+    padding: "sm:py-16 py-10",
   
     heroHeadText:
       "font-black text-white lg:text-[2em] sm:text-[2rem] md:text-[1.5rem] xs:text-[2rem] text-[20px] mb-1rem leading-1.35",

@@ -23,6 +23,7 @@ import serviceimg from "./serviceImg/serviceimg.jpg";
 import sms from "./serviceImg/sms.png";
 import tv from "./serviceImg/tv.png";
 import wifi from "./serviceImg/wifi.png";
+import check from "./serviceImg/check.svg";
 
 
 import crown from "./transparent-crown.png"
@@ -52,6 +53,7 @@ export {
     crown,
     security,
     close,
-    menu
+    menu,
+    check
     
 }

@@ -127,14 +127,31 @@ export const sec = [
 ]
 
 export const services = [
+
     {
+        id:'data',
+        content: 'Airtime Topup, Buy Data'
+    },
+
+    {
+        id: 'bulk',
+        cable: 'Bulk Sms, Cable Subscription'
+    },
+
+    {
+        id: 'imageserv',
         img: serviceimg
     },
 
     {
+        id: 'servbody',
         head: "We Provide Awesome Services",
         body: "Certain things are hard 😓 but making payments shouldn't be one of them 😋💗. DATAKING helps you make payments for services you enjoy right from the comfort of your home or office. The experience of total convienience,fast servce delivery and easy payment is just at your fingertips."
     },
+
+];
+
+export const serviceCard = [
 
     {
         img: wifi,

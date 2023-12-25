@@ -12,7 +12,10 @@ export default {
       },
 
       screens: {
-        xs: "450px",
+        "xs": "450px",
+        "iphonesm" : "320px",
+        "iphonemd" : "375px",
+        "iphonelg" : "414px" 
       },
 
       boxShadow: {
@@ -21,6 +24,7 @@ export default {
 
       fontFamily: {
         'body': ['"Open Sans", sans-serif'],
+        'h2' : ['"Work Sans", sans-serif']
       }
     },
   },
