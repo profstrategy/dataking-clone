@@ -9,8 +9,8 @@ import { SectionWrapper } from '../hoc';
 
 const Home = () => {
   return (
-    <div className='flex relative md:flex-row-reverse lg:flex-row sm:flex-col-reverse xs:flex-col-reverse max-[320px]:flex max-[320px]:flex-col-reverse max-[414px]:flex-col-reverse min-h-screen font-serif sm:mt-12 xs:mt-12 max-[320px]:mt-10 max-[414px]:mt-10'>
-      <div className={`${styles.paddingY} basis-2/4`}>
+    <div className='flex relative flex-col md:flex-row-reverse xl:flex-row lg:flex-row sm:flex-col-reverse xs:flex-col-reverse max-[320px]:flex max-[320px]:flex-col-reverse max-[414px]:flex-col-reverse font-serif max-[320px]:mt-10 max-[414px]:mt-10'>
+      <div className={`md:${styles.paddingY} basis-2/4`}>
         <h1 className={`${styles.paddingX} ${styles.heroHeadText} mb-5 text-start max-[320px]:text-[.9rem]`}>Welcome To DATAKING</h1>
         {hero.map((words) => (
             <p className={`mb-[1.25em] text-[#fff] font-[1.25rem] max-[320px]:text-[.7rem] max-[414px]:text-[15px] text-start ${styles.paddingX} ${styles.heroSubText}`} key={words.id}>{words.body}</p>
@@ -32,7 +32,7 @@ const Home = () => {
             </div>
           </div>
       </div>
-      <div className={`${styles.paddingX} ${styles.paddingY} basis-2/4 `}><img src={heroImage} className="xl:py-[13rem] lg:py-[13rem] md:py-[13rem] object-contain md:w-auto  w-full h-100" /></div>
+      <div className={`${styles.paddingX} ${styles.paddingY} basis-2/4 `}><img src={heroImage} className="object-contain md:w-auto w-full h-100" /></div>
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import heroImage from "./heroImg/hero.png";
-import mtn from "./heroImg/mtn.png";
-import airtel from "./heroImg/airtel.png";
-import glo from "./heroImg/glo.png";
-import mobile from "./heroImg/9mobile.png";
+import mtn from "./PriceImg/mtn.png";
+import airtel from "./PriceImg/airtel.png";
+import glo from "./PriceImg/glo.png";
+import mobile from "./PriceImg/9mobile.png";
 
 
 import auto from "./aboutus/auto.png";

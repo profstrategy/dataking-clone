@@ -13,7 +13,8 @@ body {
 }
 
 .hero-bg::before {
-    content: ""; /* Pseudo-element content */
+    content: "";
+    /* Pseudo-element content */
     position: absolute;
     top: 0;
     left: 0;
@@ -34,7 +35,8 @@ body {
 }
 
 .navbar::before {
-    content: ""; /* Pseudo-element content */
+    content: "";
+    /* Pseudo-element content */
     position: absolute;
     top: 0;
     left: 0;
@@ -47,4 +49,77 @@ body {
     background-image: linear-gradient(315deg, #a40606 40%, #d98324 74%);
 }
 
+.cont-header .price-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, gold, orange);
+    border-radius: 3px;
+}
 
+.cont-header .price-header-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #2fe84e, #33b309);
+    border-radius: 3px;
+}
+
+.cont-header .price-header-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #f1464a, #f70202);
+    border-radius: 3px;
+}
+
+.cont-header .price-header-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #006848, #b4c404);
+    border-radius: 3px;
+}
+
+.rows {
+    color: rgb(5, 37, 78);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.pricing-body {
+    background: #FFFFFF;
+    box-shadow: 0 3px 30px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    border-bottom: 3px solid rgba(145, 138, 255, 0);
+    transition: .3s;
+}
+
+.mtnBtn {
+    background: linear-gradient(45deg, gold, orange);
+}
+
+.GloBtn {
+    background: linear-gradient(45deg, #2fe84e, #33b309);
+}
+
+.airtelBtn {
+    background: linear-gradient(45deg, #f1464a, #f70202);
+}
+
+.mobileBtn{
+    background: linear-gradient(90deg, #006848, #b4c404);
+}

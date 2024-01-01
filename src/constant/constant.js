@@ -18,7 +18,7 @@ import {
     airtel,
     glo,
     mobile,
-    
+
 
 } from "../assets";
 
@@ -58,7 +58,7 @@ export const navLinks = [
         title: "SIGNUP"
     },
 
-    
+
 ]
 
 export const hero = [
@@ -95,7 +95,7 @@ export const about_col = [
         id: "head",
         all: "Dataking is a third party company in telecommunication industry playing a major role in distribution, offering affordable and the cheapest data,airtimem Dstv subscription, Gotv subscription, Startimes subscription,Spectranet subscription, smiles subscription, Electicity payment, Bulksms Service provider, phones, laptops, and accessories outlet platform."
     }
-] 
+]
 
 
 export const about = [
@@ -129,7 +129,7 @@ export const sec = [
 export const services = [
 
     {
-        id:'data',
+        id: 'data',
         content: 'Airtime Topup, Buy Data'
     },
 
@@ -186,7 +186,7 @@ export const serviceCard = [
 ];
 
 export const btn = [
-    
+
     {
         id: "login",
         title: "Login"
@@ -199,498 +199,539 @@ export const btn = [
 ]
 
 
-export const Glo = [
-
+export const MtnNetwork = [
     {
-        mb: "200.0MB",
-        amt: "#130",
-        days: "30days"
-    },
+        id: 'Mtnnet',
+        netImgmtn: mtn,
+        tagsmtn: [
+            {
+                id: "col1",
+                mb: "200.0MB",
+                amt: "₦130",
+                days: "30days"
+            },
 
-    {
-        mb: "500.0MB",
-        amt: "#180",
-        days: "30days"
-    },
+            {
+                id: "col2",
+                mb: "500.0MB",
+                amt: "₦180",
+                days: "30days"
+            },
 
-    {
-        mb: "1.0GB",
-        amt: "#250",
-        days: "30days"
-    },
+            {
+                id: "col3",
+                mb: "1.0GB",
+                amt: "₦250",
+                days: "30days"
+            },
 
-    {
-        mb: "1.35GB",
-        amt: "#450",
-        days: "30days"
-    },
+            {
+                id: "col4",
+                mb: "1.35GB",
+                amt: "₦450",
+                days: "30days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#500",
-        days: "30days"
-    },
+            {
+                id: "col5",
+                mb: "2.0GB",
+                amt: "₦500",
+                days: "30days"
+            },
 
-    {
-        mb: "3.0GB",
-        amt: "#750",
-        days: "30days"
-    },
+            {
+                id: "col6",
+                mb: "3.0GB",
+                amt: "₦750",
+                days: "30days"
+            },
 
-    {
-        mb: "2.9GB",
-        amt: "#900",
-        days: "30days"
-    },
+            {
+                id: "col7",
+                mb: "2.9GB",
+                amt: "₦900",
+                days: "30days"
+            },
 
-    {
-        mb: "5.0GB",
-        amt: "#1250",
-        days: "30days"
-    },
+            {
+                id: "col8",
+                mb: "5.0GB",
+                amt: "₦1250",
+                days: "30days"
+            },
 
-    {
-        mb: "4.1GB",
-        amt: "#1350",
-        days: "30days"
-    },
+            {
+                id: "col9",
+                mb: "4.1GB",
+                amt: "₦1350",
+                days: "30days"
+            },
 
-    {
-        mb: "5.8GB",
-        amt: "#1800",
-        days: "30days"
-    },
+            {
+                id: "col10",
+                mb: "5.8GB",
+                amt: "₦1800",
+                days: "30days"
+            },
 
-    {
-        mb: "7.7GB",
-        amt: "#2250",
-        days: "30days"
-    },
+            {
+                id: "col11",
+                mb: "7.7GB",
+                amt: "₦2250",
+                days: "30days"
+            },
 
-    {
-        mb: "10.0GB",
-        amt: "#2700",
-        days: "30days"
-    },
+            {
+                id: "col12",
+                mb: "10.0GB",
+                amt: "₦2700",
+                days: "30days"
+            },
 
-    {
-        mb: "13.25GB",
-        amt: "#3600",
-        days: "30days"
-    },
+            {
+                id: "col13",
+                mb: "13.25GB",
+                amt: "₦3600",
+                days: "30days"
+            },
 
-    {
-        mb: "18.25GB",
-        amt: "#4500",
-        days: "30days"
-    },
+            {
+                id: "col14",
+                mb: "18.25GB",
+                amt: "₦4500",
+                days: "30days"
+            },
 
 
-    {
-        mb: "29.5GB",
-        amt: "#7200",
-        days: "30days"
-    },
+            {
+                id: "col15",
+                mb: "29.5GB",
+                amt: "₦7200",
+                days: "30days"
+            },
 
-    {
-        mb: "93.0GB",
-        amt: "#13050",
-        days: "30days"
-    },
+            {
+                id: "col16",
+                mb: "93.0GB",
+                amt: "₦13050",
+                days: "30days"
+            },
 
-    {
-        mb: "119.0GB",
-        amt: "#16200",
-        days: "30days"
-    },
+            {
+                id: "col17",
+                mb: "119.0GB",
+                amt: "₦16200",
+                days: "30days"
+            },
 
-    {
-        mb: "138.0GB",
-        amt: "#18000",
-        days: "30days"
+            {
+                id: "col18",
+                mb: "138.0GB",
+                amt: "₦18000",
+                days: "30days"
+            }
+        ]
     }
-
 ]
 
-
-export const Mtn = [
-
-    {
-        mb: "500.0MB",
-        amt: "#140",
-        days: "30days"
-    },
+export const GloNetwork = [
 
     {
-        mb: "500.0MB",
-        amt: "#184",
-        days: "30days"
-    },
+        id: 'Glonet',
+        netImglo: glo,
+        tagsglo: [
 
-    {
-        mb: "1.0GB",
-        amt: "#255",
-        days: "30days"
-    },
+            {
+                mb: "500.0MB",
+                amt: "#140",
+                days: "30days"
+            },
 
-    {
-        mb: "1.0GB",
-        amt: "#280",
-        days: "30days"
-    },
+            {
+                mb: "500.0MB",
+                amt: "#184",
+                days: "30days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#510",
-        days: "30days"
-    },
+            {
+                mb: "1.0GB",
+                amt: "#255",
+                days: "30days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#560",
-        days: "30days"
-    },
+            {
+                mb: "1.0GB",
+                amt: "#280",
+                days: "30days"
+            },
 
-    {
-        mb: "3.0GB",
-        amt: "#840",
-        days: "30days"
-    },
+            {
+                mb: "2.0GB",
+                amt: "#510",
+                days: "30days"
+            },
 
-    {
-        mb: "3.0GB",
-        amt: "#840",
-        days: "30days"
-    },
+            {
+                mb: "2.0GB",
+                amt: "#560",
+                days: "30days"
+            },
 
-    {
-        mb: "1.2GB",
-        amt: "#900",
-        days: "30days"
-    },
+            {
+                mb: "3.0GB",
+                amt: "#840",
+                days: "30days"
+            },
 
-    {
-        mb: "1.5GB",
-        amt: "#1080",
-        days: "30days"
-    },
+            {
+                mb: "3.0GB",
+                amt: "#840",
+                days: "30days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#1140",
-        days: "30days"
-    },
+            {
+                mb: "1.2GB",
+                amt: "#900",
+                days: "30days"
+            },
 
-    {
-        mb: "5.0GB",
-        amt: "#1400",
-        days: "30days"
-    },
+            {
+                mb: "1.5GB",
+                amt: "#1080",
+                days: "30days"
+            },
 
-    {
-        mb: "5.0GB",
-        amt: "#1400",
-        days: "30days"
-    },
+            {
+                mb: "2.0GB",
+                amt: "#1140",
+                days: "30days"
+            },
 
-    {
-        mb: "3.0GB",
-        amt: "#1440",
-        days: "30days"
-    },
+            {
+                mb: "5.0GB",
+                amt: "#1400",
+                days: "30days"
+            },
 
-    {
-        mb: "4.0GB",
-        amt: "#1800",
-        days: "30days"
-    },
+            {
+                mb: "5.0GB",
+                amt: "#1400",
+                days: "30days"
+            },
 
-    {
-        mb: "6.0GB",
-        amt: "#2375",
-        days: "30days"
-    },
+            {
+                mb: "3.0GB",
+                amt: "#1440",
+                days: "30days"
+            },
 
-    {
-        mb: "10.0GB",
-        amt: "#2700",
-        days: "30days"
-    },
+            {
+                mb: "4.0GB",
+                amt: "#1800",
+                days: "30days"
+            },
 
-    {
-        mb: "10.0GB",
-        amt: "#2800",
-        days: "30days"
-    },
+            {
+                mb: "6.0GB",
+                amt: "#2375",
+                days: "30days"
+            },
 
-    {
-        mb: "12.0GB",
-        amt: "#3600",
-        days: "30days"
-    },
+            {
+                mb: "10.0GB",
+                amt: "#2700",
+                days: "30days"
+            },
 
-    {
-        mb: "15.0GB",
-        amt: "#3750",
-        days: "30days"
-    },
+            {
+                mb: "10.0GB",
+                amt: "#2800",
+                days: "30days"
+            },
 
-    {
-        mb: "20.0GB",
-        amt: "#4950",
-        days: "30days"
-    },
+            {
+                mb: "12.0GB",
+                amt: "#3600",
+                days: "30days"
+            },
 
-    {
-        mb: "30.0GB",
-        amt: "#5400",
-        days: "30days"
-    },
+            {
+                mb: "15.0GB",
+                amt: "#3750",
+                days: "30days"
+            },
 
-    {
-        mb: "40.0GB",
-        amt: "#9500",
-        days: "30days"
-    },
+            {
+                mb: "20.0GB",
+                amt: "#4950",
+                days: "30days"
+            },
 
-    {
-        mb: "40.0GB",
-        amt: "#1000",
-        days: "30days"
-    },
+            {
+                mb: "30.0GB",
+                amt: "#5400",
+                days: "30days"
+            },
 
-    {
-        mb: "75.0GB",
-        amt: "#14250",
-        days: "30days"
-    },
+            {
+                mb: "40.0GB",
+                amt: "#9500",
+                days: "30days"
+            },
 
-    {
-        mb: "75.0GB",
-        amt: "#18750",
-        days: "30days"
-    },
+            {
+                mb: "40.0GB",
+                amt: "#1000",
+                days: "30days"
+            },
 
-    {
-        mb: "120.0GB",
-        amt: "#19000",
-        days: "30days"
-    },
+            {
+                mb: "75.0GB",
+                amt: "#14250",
+                days: "30days"
+            },
 
-    {
-        mb: "45.0GB",
-        amt: "#19500",
-        days: "30days"
-    },
+            {
+                mb: "75.0GB",
+                amt: "#18750",
+                days: "30days"
+            },
 
-    {
-        mb: "100.0GB",
-        amt: "#25500",
-        days: "30days"
-    },
+            {
+                mb: "120.0GB",
+                amt: "#19000",
+                days: "30days"
+            },
 
-    {
-        mb: "200.0GB",
-        amt: "#28500",
-        days: "30days"
+            {
+                mb: "45.0GB",
+                amt: "#19500",
+                days: "30days"
+            },
+
+            {
+                mb: "100.0GB",
+                amt: "#25500",
+                days: "30days"
+            },
+
+            {
+                mb: "200.0GB",
+                amt: "#28500",
+                days: "30days"
+            }
+
+        ]
     }
-
 ]
 
-
-export const Airtel = [
-
-    {
-        mb: "300.0MB",
-        amt: "#100",
-        days: "30days"
-    },
+export const AirtelNetwork = [
 
     {
-        mb: "500.0MB",
-        amt: "#125",
-        days: "30days"
-    },
+        id: 'Airnet',
+        netImgairtel: airtel,
+        tagsairtel: [
 
-    {
-        mb: "1.0GB",
-        amt: "#250",
-        days: "30days"
-    },
+            {
+                mb: "300.0MB",
+                amt: "#100",
+                days: "30days"
+            },
 
-    {
-        mb: "750MB",
-        amt: "#480",
-        days: "14days"
-    },
+            {
+                mb: "500.0MB",
+                amt: "#125",
+                days: "30days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#500",
-        days: "30days"
-    },
+            {
+                mb: "1.0GB",
+                amt: "#250",
+                days: "30days"
+            },
 
-    {
-        mb: "1.5GB",
-        amt: "#970",
-        days: "30days"
-    },
+            {
+                mb: "750MB",
+                amt: "#480",
+                days: "14days"
+            },
 
-    {
-        mb: "2.0GB",
-        amt: "#1160",
-        days: "30days"
-    },
+            {
+                mb: "2.0GB",
+                amt: "#500",
+                days: "30days"
+            },
 
-    {
-        mb: "5.0GB",
-        amt: "#1250",
-        days: "30days"
-    },
+            {
+                mb: "1.5GB",
+                amt: "#970",
+                days: "30days"
+            },
+
+            {
+                mb: "2.0GB",
+                amt: "#1160",
+                days: "30days"
+            },
+
+            {
+                mb: "5.0GB",
+                amt: "#1250",
+                days: "30days"
+            },
 
 
-    {
-        mb: "3.0GB",
-        amt: "#1450",
-        days: "30 days"
-    },
+            {
+                mb: "3.0GB",
+                amt: "#1450",
+                days: "30 days"
+            },
 
-    {
-        mb: "6.0GB",
-        amt: "#1450",
-        days: "1 week"
-    },
+            {
+                mb: "6.0GB",
+                amt: "#1450",
+                days: "1 week"
+            },
 
-    {
-        mb: "4.5GB",
-        amt: "#1940",
-        days: "30days"
-    },
+            {
+                mb: "4.5GB",
+                amt: "#1940",
+                days: "30days"
+            },
 
-    {
-        mb: "6.0GB",
-        amt: "#2425",
-        days: "30days"
-    },
+            {
+                mb: "6.0GB",
+                amt: "#2425",
+                days: "30days"
+            },
 
-    {
-        mb: "10.0GB",
-        amt: "#2910",
-        days: "30days"
-    },
+            {
+                mb: "10.0GB",
+                amt: "#2910",
+                days: "30days"
+            },
 
-    {
-        mb: "11.0GB",
-        amt: "#3880",
-        days: "30days"
-    },
+            {
+                mb: "11.0GB",
+                amt: "#3880",
+                days: "30days"
+            },
 
-    {
-        mb: "20.0GB",
-        amt: "#4900",
-        days: "30days"
-    },
+            {
+                mb: "20.0GB",
+                amt: "#4900",
+                days: "30days"
+            },
 
-    {
-        mb: "40.0GB",
-        amt: "#9600",
-        days: "30days"
-    },
+            {
+                mb: "40.0GB",
+                amt: "#9600",
+                days: "30days"
+            },
 
-    {
-        mb: "75.0GB",
-        amt: "#14400",
-        days: "30days"
-    },
+            {
+                mb: "75.0GB",
+                amt: "#14400",
+                days: "30days"
+            },
 
-    {
-        mb: "110.0GB",
-        amt: "#19200",
-        days: "30days"
+            {
+                mb: "110.0GB",
+                amt: "#19200",
+                days: "30days"
+            }
+
+        ]
     }
-
 ]
 
-export const Etisalat = [
+export const MobileNetwork = [
 
-        {
-            mb: "1GB",
-            amt: "#250",
-            days: "30days"
-        },
+    {
+        id: 'Mobnet',
+        netImgmobile: mobile,
+        tagsmobile: [
 
-        {
-            mb: "2.0GB",
-            amt: "#400",
-            days: "30days"
-        },
+            {
+                mb: "1GB",
+                amt: "#250",
+                days: "30days"
+            },
 
-        {
-            mb: "500.0MB",
-            amt: "#450",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "2.0GB",
+                amt: "#400",
+                days: "30days"
+            },
 
-        {
-            mb: "3.0GB",
-            amt: "#600",
-            days: "30days"
-        },
+            {
+                mb: "500.0MB",
+                amt: "#450",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "1.5GB",
-            amt: "#850",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "3.0GB",
+                amt: "#600",
+                days: "30days"
+            },
 
-        {
-            mb: "2.0GB",
-            amt: "#750",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "1.5GB",
+                amt: "#850",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "3.0GB",
-            amt: "#1350",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "2.0GB",
+                amt: "#750",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "4.5GB",
-            amt: "#1800",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "3.0GB",
+                amt: "#1350",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "11.0GB",
-            amt: "#3600",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "4.5GB",
+                amt: "#1800",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "15.0GB",
-            amt: "#4500",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "11.0GB",
+                amt: "#3600",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "40.0GB",
-            amt: "#9000",
-            days: "30days{Gifting}"
-        },
+            {
+                mb: "15.0GB",
+                amt: "#4500",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "75.0GB",
-            amt: "#13500",
-            days: "30days"
-        },
+            {
+                mb: "40.0GB",
+                amt: "#9000",
+                days: "30days{Gifting}"
+            },
 
-        {
-            mb: "4000.0TB",
-            amt: "#58807777",
-            days: "1 Month"
-        }
+            {
+                mb: "75.0GB",
+                amt: "#13500",
+                days: "30days"
+            },
 
+            {
+                mb: "4000.0TB",
+                amt: "#58807777",
+                days: "1 Month"
+            }
+
+        ]
+    }
 ]
 
 export const testimonial = [

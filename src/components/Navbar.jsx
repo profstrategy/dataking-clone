@@ -61,17 +61,17 @@ const Navbar = () => {
           <div className={`${!toggle ? 'hidden' : 'flex'} top-12 w-full px-10 py-5 absolute items-center justify-start
          bg-gradient-to-r from-orange-400 to-red-700 315deg text-slate-100`}>
             <ul className=' cursor-pointer list-none text-[12px] flex justify-end items-start flex-1 flex-col gap-2'>
-              {navLinks.map((item) => (
-                <li key={item.id}
-                  className={`${active === item.title ? 'text-slate-400' : 'text-slate-100'}
+              {navLinks.map((nav) => (
+                <li key={nav.id}
+                  className={`${active === nav.title ? 'text-slate-400' : 'text-slate-100'}
                 hover:ease-in-out duration-300 hover:border-0 hover:bg-sky-500 w-full py-1.5 px-1.5 
                 `}
                   onClick={(() => {
-                    setActive(item.title)
+                    setActive(nav.title)
                     setToggle(!toggle)
                   })}
                 >
-                  <a key={item.id} href={`#${item.id}`}>{item.title}</a>
+                  <a key={nav.id} href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>

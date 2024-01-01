@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../style';
-import { serviceCard, services } from '../constant/constant';
+import { services } from '../constant/constant';
 import check from '../assets/serviceImg/check.svg'
-import { SectionWrapper } from '../hoc';
+
 
 const Services = () => {
   return (
-    <div className={`${styles.paddingY} bg-[#f7f7f7] mt-10`}>
-      <div className={`${styles.paddingX} flex flex-col gap-5 sm:flex-col
+    <div className={`p-100`}>
+      <div className={`${styles.paddingX} flex flex-col gap-7 sm:flex-col
       md:flex-row lg:flex-row xl:flex-row xs-flex-col `}>
 
         <div className='basis-2/4'>
@@ -45,11 +45,11 @@ const Services = () => {
             </div>
           </div>
 
-          <Link to={'#signup'}><button className='pt-[10px] px-[30px] font-[600] rounded-[30px] bg-[#a40606] text-white border-[#a40606] border-2 py-[10px] px-[30px] hover:bg-white hover:text-[#007bff] focus:bg-white focus:text-[#007bff] font-sans'>Login</button></Link>
+          <Link to={'#login'}><button className='pt-[10px] px-[30px] font-[600] rounded-[30px] bg-[#a40606] text-white border-[#a40606] border-2 py-[10px] px-[30px] hover:bg-white hover:text-[#007bff] focus:bg-white focus:text-[#007bff] font-sans'>Login</button></Link>
         </div>
       </div>
     </div>
   )
 }
 
-export default SectionWrapper(Services, 'services')
+export default Services

@@ -15,7 +15,8 @@ export default {
         "xs": "450px",
         "iphonesm" : "320px",
         "iphonemd" : "375px",
-        "iphonelg" : "414px" 
+        "iphonelg" : "414px" ,
+        // 'tablet': {'min': '1090px', 'max': '1220px'}
       },
 
       boxShadow: {
