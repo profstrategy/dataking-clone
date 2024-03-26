@@ -13,6 +13,11 @@ function App() {
             <Navbar />
             <Home />
           </div>
+
+          <div className='relative'>
+            <Scrollbtn />
+          </div>
+
           <About />
 
           <div className='bg-[#f7f7f7]'>
@@ -20,6 +25,7 @@ function App() {
           </div>
           <MainServices />
           <Price />
+          <Testimonial />
         </div>
       </BrowserRouter>
     </>

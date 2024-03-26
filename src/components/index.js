@@ -24,5 +24,4 @@ export {
     Footer,
     Scrollbtn,
     Navbar,
-
 }

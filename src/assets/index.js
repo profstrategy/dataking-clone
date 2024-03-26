@@ -15,6 +15,10 @@ import caro2 from "./carouselmg/2.jpeg";
 import caro3 from "./carouselmg/3.jpg";
 import caro4 from "./carouselmg/caro.jpg";
 import quote from "./carouselmg/quote.png";
+// import cup from "./carouselmg/cup.svg";
+// import user from "./carouselmg/user.svg";
+// import medall from "./carouselmg/medall.svg";
+// import headphone from "./carouselmg/headphone.svg";
 
 
 import light from "./serviceImg/light.png";
@@ -29,6 +33,7 @@ import check from "./serviceImg/check.svg";
 import crown from "./transparent-crown.png"
 import close from "./close.svg";
 import menu from "./menu.svg"
+import MoveUp from "./angle-up.svg"
 
 export {
 
@@ -54,6 +59,11 @@ export {
     security,
     close,
     menu,
-    check
+    check,
+    MoveUp,
+    // medall,
+    // cup,
+    // headphone,
+    // user
     
 }

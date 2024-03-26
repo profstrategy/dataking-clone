@@ -123,3 +123,13 @@ body {
 .mobileBtn{
     background: linear-gradient(90deg, #006848, #b4c404);
 }
+
+.moveup {
+    bottom: 4%;
+    transform: translateY(-50rem);
+}
+
+
+.movedown{
+   transform: translateY(10%);
+}

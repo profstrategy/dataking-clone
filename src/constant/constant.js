@@ -18,11 +18,20 @@ import {
     airtel,
     glo,
     mobile,
+    // medall,
+    // cup,
+    // headphone,
+    // user
 
 
 } from "../assets";
 
 export const navLinks = [
+
+    {
+        id: 'scroll'
+    }, 
+    
     {
         id: "home",
         title: "HOME",
@@ -734,7 +743,7 @@ export const MobileNetwork = [
     }
 ]
 
-export const testimonial = [
+export const testimonial_col_2 = [
 
     {
         mr1: " I love the quick response to issues. We might just get along well. So far so good. I recommnd this platform to everyone.",
@@ -761,3 +770,30 @@ export const testimonial = [
         img: caro1
     }
 ]
+
+// export const testimonial_col_1 = [
+//     {
+//         name: 'act',
+//         img_1: medall,
+//         bdy: 'Active users'
+//     },
+
+//     {
+//         name: 'glob',
+//         img_1: headphone,
+//         bdy: "Global client"
+//     },
+
+//     {
+//         name: "win",
+//         img_1: cup,
+//         bdy: "Win Award"
+//     },
+
+//     {
+//         name: 'sat',
+//         img_1: user,
+//         bdy: "Clients satisfaction"
+//     }
+// ]
+
